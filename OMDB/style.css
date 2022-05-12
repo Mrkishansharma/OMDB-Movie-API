@@ -1,0 +1,32 @@
+.image1{
+    /* max-width: 8rem;
+    max-height: 15rem; */
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    /* transition: transform .7s ease-in-out; */
+    filter: grayscale(100%);
+   /* -webkit-filter: grayscale(100%); */
+}
+img:hover{
+    /* size: 5px; */
+    max-height: 400px;
+    max-width: 450px;
+    width: 250px;
+    height: 250px;
+    cursor: default;
+    transition: transform .5s ease-in-out;
+    transform: rotate(360deg);
+    filter: grayscale(0%);
+
+}
+#box3{
+    
+    width: 500px;
+    height: 200px;
+    background-color:black;
+    color: white;
+    
+}
